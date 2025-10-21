@@ -8,7 +8,7 @@ DEBUG = True
 SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = bool(int(os.getenv('DEBUG')))
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["142.93.110.19"]
 
 INSTALLED_APPS = [
     'jazzmin',
